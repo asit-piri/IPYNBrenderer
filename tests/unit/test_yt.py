@@ -3,17 +3,17 @@ from IPYNBrenderer import get_time_info
 from IPYNBrenderer.custom_exception import InvalidURLException
 
 good_URL_data = [
-    ("https://youtu.be/roO5VGxOw2s", 0),
-    ("https://www.youtube.com/watch?v=roO5VGxOw2s", 0),
+    ("https://youtu.be/68annotEgHs", 0),
+    ("https://www.youtube.com/watch?v=68annotEgHs", 0),
     ("https://www.youtube.com/watch?v=roO5VGxOw2s&t=42s", 42),
 ]
 
 
 URL_id_bad_data = [
-    ("https://www.youtube.com/watch?v=roO5VGxOw2sahesbf"),  # exception
-    ("https://www.youtube.com/watch?v=roO5VGxOw2s&t"),  # exception
-    ("https://www.youtube.com/watch?v=roO5VGxOw2s&t==22s"),  # exception
-    ("https://www.youtube.com/watch?v==roO5VGxOw2s&t=22s")
+    ("https://www.youtube.com/watch?v=68annotEgHs"),  # exception
+    ("https://www.youtube.com/watch?v=68annotEgHs&t"),  # exception
+    ("https://www.youtube.com/watch?v=68annotEgHs&t==22s"),  # exception
+    ("https://www.youtube.com/watch?v==68annotEgHs&t=22s")
 ]
 
 
