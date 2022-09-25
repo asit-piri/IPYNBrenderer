@@ -130,4 +130,4 @@ dmypy.json
 
 # Ignore Log Files
 *.log
-.vscode/settings.json
+.vscode/*
